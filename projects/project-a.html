@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>프로젝트 A — 상품 추천 시스템</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">이름</a>
+      <nav class="nav">
+        <a href="/index.html#projects">Projects</a>
+        <a href="/index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="project-hero">
+      <img src="https://source.unsplash.com/collection/190727/900x600?sig=11" alt="project-a" />
+      <div class="project-content">
+        <h1>프로젝트 A — 개인화 추천 시스템</h1>
+        <p class="lead">사용자 행동 로그와 제품 메타데이터를 결합한 추천 모델을 설계·배포하여 전환율을 개선한 프로젝트입니다.</p>
+        <div class="tech-list">
+          <span class="tech">Python</span>
+          <span class="tech">LightGBM</span>
+          <span class="tech">AWS</span>
+          <span class="tech">Docker</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>문제</h2>
+      <p>기존 추천 시스템은 개인화가 부족해 CTR(클릭률)과 전환율이 낮았습니다. 사용자 세분화와 실시간 반영이 필요했습니다.</p>
+
+      <h2>접근</h2>
+      <p>행동 로그, 카테고리, 시간대 등 피처를 조합해 랭킹 모델을 학습했습니다. LightGBM 기반 offline 학습과 온라인 피처 파이프라인을 구축했으며, A/B 테스트로 모델 성능을 검증했습니다.</p>
+
+      <h2>결과</h2>
+      <p>신규 랭킹 모델 도입 후 전환율이 12% 개선되었고, 추천에 따른 평균 주문 금액이 증가했습니다. 모델은 CI/CD 파이프라인을 통해 주기적으로 재학습됩니다.</p>
+
+      <h2>코드/데모</h2>
+      <p><a class="btn" href="https://github.com/yourname/project-a">GitHub 리포지터리</a></p>
+
+      <p><a href="/index.html" class="btn ghost">홈으로 돌아가기</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 이름</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

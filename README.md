@@ -7,6 +7,7 @@
 - `index.html` — 홈페이지 마크업 (About, Skills, Projects, Contact)
 - `assets/css/styles.css` — 기본 스타일 및 반응형 레이아웃
 - `assets/js/main.js` — 테마 토글, 모바일 내비게이션, 스무스 스크롤
+- `projects/` — 각 프로젝트별 상세 페이지(`project-a.html`, `project-b.html`, `project-c.html`)
 
 ## 빠른 시작 (로컬)
 
